@@ -5,6 +5,7 @@
 }
 @tailwind utilities;
 
+/* layer directive btn class ko utilities ke baad apply kar dega */
 @layer utilities{
     .btn{
         @apply text-white bg-red-600 rounded-xl px-2 py-1 text-sm;
